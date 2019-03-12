@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    nav{
+    background-color:rgb(2, 176, 189);
+    text-align: center;
+    }
+
+    nav ul li{
+    display: inline;
+    list-style: none;    
+    }
+
+    .active{
+    background-color:cornflowerblue;
+    border-bottom:solid seashell;
+    }
+
+    nav ul li a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    transition-property:background-color;
+    transition-duration: .7s;
+    transition-delay: 0s;
+    }
+
+    nav ul li a:hover{
+    background-color:cornflowerblue;
+    border-bottom:solid seashell;
+    }
+
+    .pagina1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition-property:background-color, width, height;
+    transition-duration: 2.5s;
+   
+    }
+
+    .pagina1:hover{
+    background-color:purple;
+    width: 250px;
+    height: 250px;
+    }
+
+    .pagina2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(32, 235, 66);
+    transition-property: width, background-color, height, border;
+    transition-delay: 0s, 1s, 1s, 2s;  
+    transition-duration: 1s;
+    }
+    
+    .pagina2:hover{
+    background-color:rgb(39, 209, 195);
+    width: 300px;
+    height: 300px;
+    border:solid 7px rgb(209, 8, 8);
+    }
+
+    .pagina3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 183, 255);
+    transition-property:width, height, background-color;
+    transition-duration: 1s;
+    transition-delay: 0s, 0s, 1s;
+       
+    }
+    
+    .pagina3:hover{
+    background-color:teal;
+    width: 300px;
+    height: 300px;
+    }
+
+    .pagina3 article{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    transition-property: width,  height, border-radius ;
+    transition-delay: 1.3s, 1.3s, 2s;  
+    transition-duration: 2.5s;
+    
+    }
+
+    .pagina3:hover article{
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    }
+
+    .pagina4{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(23, 197, 209);
+    transition-property: width, height, background-color;
+    transition-delay: 0s, 1s, 2s;  
+    transition-duration: 1s;
+    }
+    .pagina4:hover{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    }
+
+    .pagina4 section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(190, 209, 23);
+    transition-property:left, border-radius, background-color;
+    transition-delay: 3s, 4s, 4s;  
+    transition-duration: 1s;
+    }
+
+    .pagina4:hover section{
+    left: 45px;
+    border-radius: 50%;
+    background-color: rgb(135, 161, 85);
+    }
+
+    .pagina4 article{
+    position: absolute;
+    right:0;
+    bottom:0;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(190, 209, 23);
+    transition-property:right, border-radius, background-color;
+    transition-delay: 3s, 4s, 4s;  
+    transition-duration: 1s;
+    }
+
+    .pagina4:hover article{
+    right: 45px;
+    border-radius: 50%;
+    background-color: rgb(61, 216, 131);
+    }
+    
+    .pagina5{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(23, 209, 79);
+    transition-property:background-color, width, height;
+    transition-delay: 0s, 1s, 2s;  
+    transition-duration: 1s;
+    }
+
+    .pagina5:hover{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(61, 64, 233);
+    }
+
+
+    .pagina5 section{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(214, 139, 41);
+    transition-property:bottom,left, border-radius;
+    transition-delay: 3s, 3s, 4s;  
+    transition-duration: 1s;
+    }
+
+    .pagina5:hover section{
+    bottom: 20px;
+    left: 20px;
+    border-radius: 50%;
+    }
+
+    .pagina5 article{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+    width:  65px;
+    height: 65px;
+    background-color: rgb(214, 139, 41);
+    transition-property:top, right, border-radius, background-color;
+    transition-delay: 3s, 3s, 4s;  
+    transition-duration: 1s;
+    }
+
+    .pagina5:hover article{
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    }
+
+    .pagina5 div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width:  65px;
+    height: 65px;
+    background-color: rgb(214, 139, 41);
+    transition-property:border-radius, background-color;
+    transition-delay:5s, 6s; 
+    transition-duration: 1s;
+    }
+
+    .pagina5:hover div{
+    border-radius: 50%;
+    background-color: brown;
+    }
+
+    .pagina6{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(61, 64, 233);
+    transition-property:width, height, border-top, border-right, border-bottom, border-left;
+    transition-delay: 0s, 0s, 1s, 2s, 3s, 4s;  
+    transition-duration: 1s;
+            }
+    .pagina6:hover{
+    width: 300px;
+    height: 300px;
+    border-top: solid 8px brown;
+    border-right: solid 8px black;
+    border-bottom: solid 8px rgb(70, 6, 6);
+    border-left: solid 8px rgb(11, 7, 211);
+    
+    }
+   
+
+    .pagina6 footer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(41, 214, 119);
+    transition-property:top, left, border-radius;
+    transition-delay: 5s, 5s, 6s;  
+    transition-duration: 1.5s;
+    }
+                
+    .pagina6:hover footer{
+    top: 30px;
+    left: 30px;   
+    border-radius: 50%;   
+    }
+
+    .pagina6 div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+    width:  55px;
+    height: 55px;
+    background-color: rgb(41, 214, 119);
+    transition-property:top, right, border-radius;
+    transition-delay:7s, 7s, 8s;  
+    transition-duration:1.5s;
+    }
+        
+    .pagina6:hover div{
+    top: 30px;
+    right: 30px; 
+    border-radius: 50%; 
+    }
+
+    .pagina6 section{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(41, 214, 119);
+    transition-property:bottom, left, border-radius;
+    transition-delay: 9s, 9s, 10s;  
+    transition-duration: 1.5s;
+    }
+        
+    .pagina6:hover section{
+    bottom: 30px;
+    left: 30px;
+    border-radius: 50%; 
+    }
+
+    .pagina6 article{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width:  55px;
+    height: 55px;
+    background-color: rgb(41, 214, 119);
+    transition-property:bottom, right, border-radius;
+    transition-delay: 11s, 11s, 12s;  
+    transition-duration: 1.5s;
+    }
+        
+    .pagina6:hover article{
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%; 
+    }
+
+
+    .pagina6 aside{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(41, 214, 119);
+    transition-property: border-radius,   background-color;
+    transition-delay: 13s, 14s;  
+    transition-duration: 1.5s;
+    }
+                
+    .pagina6:hover aside{
+    border-radius: 50%;
+    background-color: rgb(253, 215, 0);
+    }
